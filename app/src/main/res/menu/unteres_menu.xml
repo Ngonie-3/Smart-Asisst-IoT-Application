@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Lichter An"
+          android:id="@+id/LichterAn"
+          android:icon="@drawable/ic_light_on"/>
+
+    <item android:title="Lichten Aus"
+          android:id="@+id/LichtenAus"
+          android:icon="@drawable/ic_light_off"/>
+
+    <item android:title="Lüfter An"
+          android:id="@+id/LüfterAn"
+          android:icon="@drawable/ic_fan_on"/>
+
+    <item android:title="Lüfter Aus"
+          android:id="@+id/LüfterAus"
+          android:icon="@drawable/ic_fan_off"/>
+
+</menu>

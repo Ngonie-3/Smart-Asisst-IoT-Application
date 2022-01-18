@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/LightsOn"
+        android:title="Lights On"
+        android:icon="@drawable/ic_light_on"/>
+
+    <item
+        android:id="@+id/LightsOff"
+        android:title="Lights Off"
+        android:icon="@drawable/ic_light_off"/>
+
+    <item
+        android:id="@+id/FanOn"
+        android:title="Fan On"
+        android:icon="@drawable/ic_fan_on"/>
+
+    <item
+        android:id="@+id/FanOff"
+        android:title="Fan Off"
+        android:icon="@drawable/ic_fan_off"/>
+</menu>
