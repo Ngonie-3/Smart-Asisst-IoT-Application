@@ -93,26 +93,26 @@ public class SecondActivity extends AppCompatActivity {
                 ArrayList<String> data = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
                 editText.setText(data.get(0));
 
-                if(editText.getText().toString().equals("Switch lights on")){
+                if(editText.getText().toString().equals("switch lights on")){
                     WebView webView = (WebView) findViewById(R.id.webView);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/lightson.php");
-                }else if(editText.getText().toString().equals("Switch lights off")){
+                    webView.loadUrl("http://192.168.1.8/lightson.php");
+                }else if(editText.getText().toString().equals("switch lights off")){
                     WebView webView = (WebView) findViewById(R.id.webView);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/turnOffLights.php");
-                }else if(editText.getText().toString().equals("switch on Fan")){
+                    webView.loadUrl("http://192.168.1.8/turnOffLights.php");
+                }else if(editText.getText().toString().equals("switch on fan")){
                     WebView webView = (WebView) findViewById(R.id.webView);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/fanon.php");
-                }else if(editText.getText().toString().equals("switch off Fan")){
+                    webView.loadUrl("http://192.168.1.8/fanon.php");
+                }else if(editText.getText().toString().equals("switch off fan")){
                     WebView webView = (WebView) findViewById(R.id.webView);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/fanoff.php");
+                    webView.loadUrl("http://192.168.1.8/fanoff.php");
                 }
 
             }

@@ -23,7 +23,7 @@ public class FanOnFragment extends Fragment {
         webView.getSettings().setJavaScriptEnabled(true);
         //webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://192.168.0.95/fanon.php");
+        webView.loadUrl("http://192.168.1.8/fanon.php");
         return myView;
     }
 }

@@ -20,7 +20,7 @@ public class LufterAnFragment extends Fragment {
         WebView webView = (WebView) myView.findViewById(R.id.webviewDrei);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://192.168.0.95/fanon.php");
+        webView.loadUrl("http://192.168.1.8/fanon.php");
         return myView;
     }
 }

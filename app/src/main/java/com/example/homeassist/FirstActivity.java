@@ -97,22 +97,22 @@ public class FirstActivity extends AppCompatActivity {
                     WebView webView = (WebView) findViewById(R.id.webview);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/lightson.php");
+                    webView.loadUrl("http://192.168.1.8/lightson.php");
                 }else if(editText.getText().toString().equals("Licht ausmachen")){
                     WebView webView = (WebView) findViewById(R.id.webview);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/turnOffLights.php");
+                    webView.loadUrl("http://192.168.1.8/turnOffLights.php");
                 }else if(editText.getText().toString().equals("schalten Sie den Lüfter ein")){
                     WebView webView = (WebView) findViewById(R.id.webview);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/fanon.php");
+                    webView.loadUrl("http://192.168.1.8/fanon.php");
                 }else if(editText.getText().toString().equals("schalten Sie den Lüfter aus")){
                     WebView webView = (WebView) findViewById(R.id.webview);
                     webView.getSettings().setJavaScriptEnabled(true);
                     webView.setWebViewClient(new WebViewClient());
-                    webView.loadUrl("http://192.168.0.95/fanoff.php");
+                    webView.loadUrl("http://192.168.1.8/fanoff.php");
                 }
             }
 

@@ -23,7 +23,7 @@ public class LightsOffFragment extends Fragment {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
         //webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
-        webView.loadUrl("http://192.168.0.95/turnOffLights.php");
+        webView.loadUrl("http://192.168.1.8/turnOffLights.php");
         return myView;
     }
 }
