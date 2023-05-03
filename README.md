@@ -5,4 +5,4 @@ to control the application can be issued in both languages and the application w
 The aid of a Rapsberry pi card and a two-relay channel arduino module was used to connect the gpio pins to their respective channel, which will 
 then enable the light and fan to either switch on or off.
 
-[Video Demo Link](https://ahazdeb.wixsite.com/ngoni3w3b5it3/projects) - Smart Assist IoT Application
+[Video Demo Link](https://youtu.be/yplGBmBd1DE) - Smart Assist IoT Application
